@@ -42,7 +42,7 @@ function renderLinks(scene, THREE) {
   function render(links, idxToPos, linksCount) {
     var jsPos = [];
     var jsColors = [];
-    var r = 16000;
+    var r = 1600;
     var i = 0;
     var linkId = 0;
     var maxVisibleDistance = appConfig.getMaxVisibleEdgeLength();
