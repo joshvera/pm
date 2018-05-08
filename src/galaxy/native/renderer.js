@@ -157,7 +157,7 @@ function sceneRenderer(container) {
   }
 
   function updateSizes(outLinks, inLinks) {
-    var maxInDegree = getMaxSize(inLinks);
+    var maxInDegree = getMaxSize(outLinks);
     var view = renderer.getParticleView();
     var sizes = view.sizes();
     for (var i = 0; i < sizes.length; ++i) {
